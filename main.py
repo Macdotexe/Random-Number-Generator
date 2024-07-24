@@ -13,7 +13,7 @@ pygame.display.set_caption("Random Number Generator")
 clock = pygame.time.Clock()
 font = pygame.font.Font(None, 70)
 
-icon = pygame.image.load("?.png")
+icon = pygame.image.load("icon.png")
 pygame.display.set_icon(icon)
 rand_num = generate_random_num()
 text = font.render(str(rand_num), True, "White")
